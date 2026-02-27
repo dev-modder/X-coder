@@ -1,0 +1,41 @@
+{
+  "name": "hashan-md",
+  "version": "1.0.0",
+  "description": "HASHAN-MD WhatsApp Bot with Multi-Number Support",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "file-type": "^19.6.0",
+    "fs-extra": "^11.3.0",
+    "jimp": "^0.16.13",
+    "moment-timezone": "^0.5.47",
+    "mongoose": "^8.9.5",
+    "node-fetch": "^3.3.2",
+    "pino": "^9.6.0",
+    "ruhend-scraper": "^9.0.1",
+    "sharp": "^0.33.5",
+    "yt-search": "^2.12.1",
+    "denethdev-ytmp3": "^1.0.3"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "multi-device",
+    "baileys",
+    "hashan-md"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
